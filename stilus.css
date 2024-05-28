@@ -1,0 +1,22 @@
+main {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.jatekter {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 5px;
+}
+
+.jatekter div {
+    aspect-ratio: 1; /* Oldalarány fenntartása */
+    border: 1px solid gray;
+    border-radius: 50%; /* Kör alakúvá teszi az elemet */
+    font-size: 35px;
+    cursor: grab; /* Egér ikon változtatása */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
