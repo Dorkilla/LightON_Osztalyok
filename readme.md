@@ -1,7 +1,7 @@
 # LightON
 
 # UML ábra
-
+![alt text]((image.png) "Uml ábra")
 
 # Magyarázat:
 # Játéktér.js:
