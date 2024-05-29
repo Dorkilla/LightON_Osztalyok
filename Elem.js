@@ -23,10 +23,8 @@ export default class Elem {
     }
 
     #megjelenit() {
-        //Létrehoz egy új div elemet
-        const divElem = document.createElement("div");
-        //Beállítja a data-id-t a lámpa azonosítójára
-        divElem.setAttribute("data-id", this.#id);
+        let txt=`
+        <div><p>${this.#lampakAllapota}</p></div>`
         //Hozzáadja a szülő elemhez
         this.#szuloElem.append(divElem);
     }
