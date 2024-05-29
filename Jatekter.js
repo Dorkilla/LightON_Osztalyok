@@ -9,6 +9,7 @@ export default class JatekTer {
     constructor() {
         this.#setLampakAllapota();
         this.#megjelenit();
+        this.#ellenorzes();
 
         //Lépés eseményre reagál
         $(window).on("lepes", (event) => {
@@ -46,5 +47,9 @@ export default class JatekTer {
             divElem.css("background-color", "#526863"); //Páratlan lépés - zöld
         }
         this.#lepesekSzama++;
+    }
+    #ellenorzes(){
+        //győzelem ellenőrzése
+
     }
 }
