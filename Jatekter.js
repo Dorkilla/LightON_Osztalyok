@@ -23,8 +23,8 @@ export default class JatekTer {
         //Eltávolítja a játéktér aktuális tartalmát
         szuloElem.empty();
         //Létrehoz egy új Elem objektumot minden egyes lámpához, állapottal és elhelyezve a játéktéren
-        this.#lampakAllapotLista.forEach((ertek, index) => {
-            new Elem(index, ertek, szuloElem);
+        this.#lampakAllapotLista.forEach((lampakAllapota, index) => {
+            new Elem(index, lampakAllapota, szuloElem);
         });
     }
 
